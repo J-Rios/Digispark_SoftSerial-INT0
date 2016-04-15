@@ -18,7 +18,6 @@ How to use (Wich pins are available for the library):
   - Should use P1 pin for Tx UART (better results than P0).
   - Cant use P3 or P4 for Tx UART, if it is used for USB (USB+ and USB-).
   - Cant use P5 pin (maybe reset enabled issue).
-  - 
 
 -------------------------------------------------------------------------------------------------------------------------
 
