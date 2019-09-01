@@ -14,7 +14,7 @@ void loop()
 {
     // Basic Echo Test
     if(Bluetooth.available())
-        Bluetooth.write(Ser.read());
+        Bluetooth.write(Bluetooth.read());
 
     delay(100);
 }
