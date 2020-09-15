@@ -19,10 +19,10 @@ C:/.../AppData/Roaming/Arduino15/packages/digistump/hardware/avr/X.X.X/libraries
 
 ## How to use (Wich pins are available)
 
-- Must use P2 (INT0) pin for Rx UART.
+- **Must** use P2 (INT0) pin for Rx UART.
 - Should use P1 pin for Tx UART (better results than P0).
-- Cant use P3 or P4 for Tx UART, if it is used for USB (USB+ and USB-).
-- Cant use P5 pin (maybe reset enabled issue).
+- Can't use P3 neither P4 for Tx UART, because them are used for USB (USB+ and USB-).
+- Can't use P5 pin, due it could be reset enabled.
 
 ---
 
